@@ -71,9 +71,9 @@ body{
     color: white;
     font-size: 20px;
 }
-.hr{
+/* .hr{
     display: none;
-}
+} */
 
 /* hero section */
 
@@ -149,6 +149,7 @@ body{
 }
 .card-btn{
     margin-top: 15px;
+    cursor: pointer;
 }
 .card-btn-1{
     color: #64C8FF;
@@ -180,7 +181,10 @@ body{
     width: 30px;
     border-radius: 100%;
     color: white;
-
+    cursor: pointer;
+}
+.first-arrow:hover{
+    background-color: #01ACFD;
 }
 .sec-arrow{
     display: flex;
@@ -191,6 +195,10 @@ body{
     width: 30px;
     border-radius: 100%;
     color: white;
+    cursor: pointer;
+}
+.sec-arrow:hover{
+    background-color: #01ACFD;
 }
 
 /* stories section */
@@ -259,6 +267,7 @@ body{
     padding: 14px 15px;
     left: 30px;
     bottom: -20px;
+    color: white;
 }
 .story-btn-1, .story-btn-3, .story-btn-4{
     background-color: #95B226;
@@ -294,11 +303,46 @@ body{
 .foot-fast{
     display: flex;
     align-items: center;
+    padding-bottom: 30px;
+    gap: 4px;
 }
 .foot-fast .foot-title{
     margin-top: 5px;
 }
-
+.foot-fast .foot-image{
+    height: 82px;
+    width: 82px;
+}
+.foot-title{
+    font-size: 32px;
+    font-weight: bold;
+}
+.foot-col1{
+    color: white;
+}
+.col2-title{
+    font-size: 24px;
+    font-weight: bold;
+}
+.foot-col1 ul li{
+    list-style: none;
+    margin-top: 20px;
+}
+.foot-col1 ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+.foot-col1 .col3-title{
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+.foot-social{
+    display: flex;
+    gap: 10px;
+}
 
 
 
@@ -310,15 +354,12 @@ body{
     .nav{
         display: flex;
         justify-content: space-between;
+        border-bottom: 1px solid orange;
+        padding-bottom: 10px;
     }
     .icon{
         display: block;
     }
-   .hr{
-    display: block;
-    color: #FEA301;
-    margin-top: 10px;
-   }
 
    .hero-container{
     display: flex;
@@ -337,6 +378,11 @@ body{
     margin-top: 5px;
     padding: 20px;
    }
+
+
+   .arrow{
+    display: none;
+   }
    .big-box{
     display: none;
    }
@@ -346,6 +392,29 @@ body{
     grid-template-columns:1fr 1fr ;
     grid-template-rows: 1fr 1fr ;
     gap: 16px;
+}
+
+
+
+
+.foot-container{
+    display: flex;
+    flex-direction: column;
+    padding: 60px 30px;
+}
+
+.foot-col1 .col2-title{
+    margin-top: 30px;
+}
+.foot-col1 ul li{
+    list-style: none;
+    margin-top: 10px;
+}
+.foot-col1 ul li a{
+    font-size: 16px;
+}
+.foot-col1 .col3-title{
+    margin: 20px 0;
 }
 }
 
