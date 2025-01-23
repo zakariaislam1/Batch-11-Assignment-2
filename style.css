@@ -127,7 +127,6 @@ body{
     text-align: center;
     font-size: 42px;
     font-weight: bold;
-    
 }
 .card-1{
     border-radius: 5px;
@@ -395,6 +394,12 @@ body{
     display: flex;
     flex-direction: column;
    }
+   .card-top{
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
    .card-1{
     margin-top: 5px;
     padding: 20px;
