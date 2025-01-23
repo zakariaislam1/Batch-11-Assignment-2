@@ -71,9 +71,12 @@ body{
     color: white;
     font-size: 20px;
 }
-/* .hr{
-    display: none;
-} */
+.mark{
+    background-color: #95B226;
+    margin-top: 10px;
+    color: white;
+    font-size: 20px;
+}
 
 /* hero section */
 
@@ -93,6 +96,12 @@ body{
 .hero-title{
     font-size: 52px;
     font-weight: bold;
+}
+.empower{
+    color: #F0AA00;
+}
+.towards{
+    color: #01ACFD;
 }
 .hero-description{
     margin-top: 24px;
@@ -357,6 +366,9 @@ body{
         border-bottom: 1px solid orange;
         padding-bottom: 10px;
     }
+    .mark{
+        width: 100%;
+    }
     .icon{
         display: block;
     }
@@ -366,10 +378,18 @@ body{
     flex-direction: column-reverse;
     text-align: center;
    }
+   .hero-title{
+    font-size: 36px;
+    margin-top: -80px;
+   }
+   .hero-description{
+    font-size: 16px;
+    font-weight: 500;
+   }
    .hero-image{
     width: 100%;
    }
-
+   
    .card-container{
     display: flex;
     flex-direction: column;
@@ -394,8 +414,17 @@ body{
     gap: 16px;
 }
 
-
-
+.story-title{
+    font-size: 36px;
+    margin: 50px 0 20px 0;
+}
+.story-btn{
+    padding: 8px 10px;
+    left: 10px;
+} 
+.story-view-button{
+    margin-top: 20px;
+}
 
 .foot-container{
     display: flex;
@@ -415,6 +444,10 @@ body{
 }
 .foot-col1 .col3-title{
     margin: 20px 0;
+}
+
+.space{
+    padding: 0 10px;
 }
 }
 
