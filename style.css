@@ -197,6 +197,7 @@ body{
 
 .story-section{
     background: url(image),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%), url(./assets/bg.png);
+    padding-bottom: 60px;
 }
 .story-title{
     text-align: center;
@@ -278,6 +279,27 @@ body{
     text-align: center;
     margin-top: 80px;
 }
+
+/* footer */
+
+.foot-section{
+    background-color: #01ACFD;
+    width: 100%;
+}
+.foot-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 140px 20px;
+}
+.foot-fast{
+    display: flex;
+    align-items: center;
+}
+.foot-fast .foot-title{
+    margin-top: 5px;
+}
+
+
 
 
 
